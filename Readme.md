@@ -1,4 +1,5 @@
 <!--<h1 align="center">Daily-Online-Blog</h1>-->
+# DailyBlog Pawandeep Singh Thandi
 
 Date : 1-Feb-2022 
 <h3 align='center'>Introduction to Linux & Installing Ubuntu</h3>
@@ -56,7 +57,6 @@ and Learned the Methods of Conacatenating Two clips with one another
 - Add CSV files to feth the data in to Script 
 - Added some Effect to make the video more 
 - Convert the Hard Coded Script into Structured Script
-
 
 Date : 7-Feb-2022 
 <h3 align='center'></h3>

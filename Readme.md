@@ -19,6 +19,7 @@ Date : 2-Feb-2022
 <h3 align='center'>Introduction to LAMP Stack and Installation</h3>
 
 <p alihn="center">The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:</p>
+<br>
 
 - Linux is an operating system used to run the rest of the components.
 - Apache HTTP Server is a web server software used to serve static web pages.
@@ -35,7 +36,15 @@ Date : 4-Feb-2022
 <h3 align='center'>Image to video</h3>
 <p> I need to Write a Script used to convert a Images into Video</p>
 
-# Moviepy{#identifier .red}
+# Moviepy
+<p>MoviePy is a Python module for video editing, which can be used for basic operations (like cuts, concatenations, title insertions), video compositing (a.k.a. non-linear editing), video processing, or to create advanced effects. It can read and write the most common video formats, including GIF</p>
+
+- install usign command pip install moviepy
+- install imagemagick run the comand sudo apt install imagemagick
+   - goto ---- /etc/ImageMagick-6/policy.xml file  
+   - In the file comment out the line
+   - "policy domain="path" rights="none" pattern="@*" 
+   - you can found this at the bottom part of the file
 
 
 Date : 5-Feb-2022 

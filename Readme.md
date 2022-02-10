@@ -5,9 +5,9 @@ Date : 1-Feb-2022
 
 <p align="justify">Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.</p>
 
-- Download the linux distribution of your choice.
-- Creating Boot pendrive using rufus.exe in windows.
-- Restart the system and open boot menu using boot key. (Eg.- F8, F2 etc.)
+- Download the linux distribution of your choice from the offical sites.
+- Creating Boot pendrive using rufus.exe in windows or IOS.
+- Restart the system and open boot menu using boot key according to your system .(Eg.- F8, F2 etc.)
 - Select your boot device in boot menu.
 - Select Install Ubuntu then Click Noraml Installation.
 - Select where to install alongside window or Erase disk or something else.
@@ -16,7 +16,7 @@ Date : 1-Feb-2022
 <br>
 
 Date : 2-Feb-2022 
-<h3 align='center'>Introduction to LAMP Stack</h3>
+<h3 align='center'>Introduction to LAMP Stack and Installation</h3>
 
 <p alihn="center">The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:</p>
 
@@ -29,9 +29,14 @@ Date : 2-Feb-2022
 
 Date : 3-Feb-2022 
 <h3 align='center'>Run Cgi Script</h3>
+A CGI script is any program that runs on a web server</p>
 
 Date : 4-Feb-2022 
 <h3 align='center'>Image to video</h3>
+<p> I need to Write a Script used to convert a Images into Video</p>
+
+# Moviepy{#identifier .red}
+
 
 Date : 5-Feb-2022 
 <h3 align='center'>Introduction to frappe</h3>

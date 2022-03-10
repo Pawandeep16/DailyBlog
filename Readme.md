@@ -63,8 +63,12 @@ Date : 7-Feb-2022
 
 Date : 8-Feb-2022 
 <h3 align='center'>Introduction to Github Pages</h3>
-
-<br/>
+- Getting Information What is GitHub Pages.
+- Create a New Repository on GitHub.
+- Setting Repository as the main branch and setting a theme for GitHub pages.
+"policy domain="path" rights="none" pattern="@*"- Learning about Personal access tokens for push Local Repository on GitHub.
+- Learning Syntax of Markdown Language in GitHub.
+<br>
 
 Date : 9-Feb-2022 
 

@@ -78,7 +78,7 @@ After setting up Frappe Framework, you can be productive in no time. Creating mo
 
 **Date : 11-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-For Installation I Followed the installation Guide at https://frappeframework.com/docs/v13/user/en/installation <br>
+For Installation I Followed the installation Guide at [Click TO Reach](https://frappeframework.com/docs/v13/user/en/installation) <br>
 For Frappe FrameWork we need some Pre-requistis i.e.
 - **Git**  
 - **Python** 
@@ -126,9 +126,10 @@ The app will create certains fille in the app folder the whole structure is
 - **patches.txt**: Patch entries for database migrations
 - **hooks.py**: Hooks used to extend or intercept standard functionality provided by the framework
 - **requirements.txt**: List of Python packages that will be installed when you install this app
- 
+![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/3.png)
 **Date : 15-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+###  Introduction to DocTypes in Frappe:
+
 **Date : 16-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 **Date : 17-Feb-2022** 

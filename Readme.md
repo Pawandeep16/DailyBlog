@@ -130,6 +130,14 @@ The app will create certains fille in the app folder the whole structure is
 **Date : 15-Feb-2022** 
 ###  Introduction to DocTypes in Frappe:
 
+A DocType is the core building block of any application based on the Frappe Framework. It describes the Model and the View of your data. It contains what fields are stored for your data, and how they behave with respect to each other. It contains information about how your data is named. It also enables rich Object Relational Mapper (ORM) pattern which we will discuss later in this guide. When you create a DocType, a JSON object is created which in turn creates a database table.
+
+To enable rapid application development, Frappe Framework follows some standard conventions.
+
+1. DocType is always singular. If you want to store a list of articles in the database, you should name the doctype Article.
+2. Table names are prefixed with tab. So the table name for Article doctype is tabArticle.
+3. The standard way to create a DocType is by typing new doctype in the search bar in the Desk.
+
 **Date : 16-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 **Date : 17-Feb-2022** 

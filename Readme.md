@@ -30,7 +30,7 @@ The LAMP stack is a popular open-source solution stack used primarily in web dev
 - Verifying by run LAMP on localhost.
 
 **Date : 3-Feb-2022**
-### Run Cgi Script
+## Run Cgi Script
 A CGI script is any program that runs on a web server.
 
 **Date : 4-Feb-2022**
@@ -78,7 +78,7 @@ The key difference in Frappe compared to other frameworks is that meta-data is a
 After setting up Frappe Framework, you can be productive in no time. Creating models, wiring controller code and updating views are all handled by the framework.
 
 **Date : 11-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+## Installation of Frappe FrameWork on linux based System:
 For Installation I Followed the installation Guide at [Click TO Reach](https://frappeframework.com/docs/v13/user/en/installation) <br>
 For Frappe FrameWork we need some Pre-requistis i.e.
 - **Git**  
@@ -145,9 +145,9 @@ A DocType not only stores fields, but also other information about how your data
 
 
 **Date : 16-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+### Types of DocType
 **Date : 17-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+### Form Scripts
 **Date : 18-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 **Date : 19-Feb-2022** 

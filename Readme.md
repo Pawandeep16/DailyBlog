@@ -1,10 +1,10 @@
-<!--<h1 align="center">Daily-Online-Blog</h1>-->
+
 # DailyBlog Pawandeep Singh Thandi
 
-Date : 1-Feb-2022 
-<h3 align='center'>Introduction to Linux & Installing Ubuntu</h3>
+**Date : 1-Feb-2022**
+### Introduction to Linux & Installing Ubuntu
 
-<p align="justify">Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.</p>
+Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.
 
 - Download the linux distribution of your choice from the offical sites.
 - Creating Boot pendrive using rufus.exe in windows or IOS.
@@ -16,10 +16,10 @@ Date : 1-Feb-2022
 - For More detail about Installation Guide [Click here](https://phoenixnap.com/kb/install-ubuntu-20-04)
 <br>
 
-Date : 2-Feb-2022 
-<h3 align='center'>Introduction to LAMP Stack and Installation</h3>
+**Date: 2-Feb-2022**
+### Introduction to LAMP Stack and Installation
 
-<p alihn="center">The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:</p>
+The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:
 <br>
 
 - Linux is an operating system used to run the rest of the components.
@@ -29,16 +29,16 @@ Date : 2-Feb-2022
 - Installing lamp on Ubuntu System.
 - Verifying by run LAMP on localhost.
 
-Date : 3-Feb-2022 
-<h3 align='center'>Run Cgi Script</h3>
-A CGI script is any program that runs on a web server</p>
+**Date : 3-Feb-2022 **
+### Run Cgi Script
+A CGI script is any program that runs on a web server.
 
-Date : 4-Feb-2022 
-<h3 align='center'>Image to video</h3>
-<p> I need to Write a Script used to convert a Images into Video</p>
+**Date : 4-Feb-2022 **
+### Image to video
+I need to Write a Script used to convert a Images into Video</p>
 
 # Moviepy
-<p>MoviePy is a Python module for video editing, which can be used for basic operations (like cuts, concatenations, title insertions), video compositing (a.k.a. non-linear editing), video processing, or to create advanced effects. It can read and write the most common video formats, including GIF</p>
+MoviePy is a Python module for video editing, which can be used for basic operations (like cuts, concatenations, title insertions), video compositing (a.k.a. non-linear editing), video processing, or to create advanced effects. It can read and write the most common video formats, including GIF
 
 - install usign command pip install moviepy
 - install imagemagick run the comand sudo apt install imagemagick
@@ -48,8 +48,8 @@ Date : 4-Feb-2022
    - you can found this at the bottom part of the file
 
 
-Date : 5-Feb-2022 
-<h3 align='center'>Concatenate TextClips and Images</h3>
+**Date : 5-Feb-2022 **
+### Concatenate TextClips and Images
 Added the text CLips using the TextClip component from the Movepy Liberary 
 and Learned the Methods of Conacatenating Two clips with one another
 
@@ -58,11 +58,9 @@ and Learned the Methods of Conacatenating Two clips with one another
 - Added some Effect to make the video more 
 - Convert the Hard Coded Script into Structured Script
 
-Date : 7-Feb-2022 
-<h3 align='center'></h3>
 
-Date : 8-Feb-2022 
-<h3 align='center'>Introduction to Github Pages</h3>
+**Date : 8-Feb-2022 **
+### Introduction to Github Pages
 - Getting Information What is GitHub Pages.
 - Create a New Repository on GitHub.
 - Setting Repository as the main branch and setting a theme for GitHub pages.
@@ -71,7 +69,7 @@ Date : 8-Feb-2022
 <br>
 
 
-Date : 10-Feb-2022 
+**Date : 10-Feb-2022 **
 ###  Introduction To Frappe FrameWork
 Frappe FrameWork is a WebFrameWork written in **Python** and **JavaScript** and at the backend it is suppored by **node** js and database is handelled by the **Mariadb**
 The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.

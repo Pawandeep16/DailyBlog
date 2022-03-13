@@ -95,13 +95,15 @@ After setting up everything we can Create sites and apps according to our need
 ###  Creating a LMS Site on Frappe FrameWork
 First we run a command in the terminal 
 - bench new-site library.test <br>
+It will ask us to set adiministrator password for the site. 
+After setting up password we are good to go.
 
-![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png)
+![command line](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png)
 
 When we run the command 
 - bench start  
 It will start the bench and we can run it on localhost with provides link ad default it will run on  8000 port
- 
+ ![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/2.png)
 
 Date : 14-Feb-2022 
 ###  Installation of Frappe FrameWork on linux based System:

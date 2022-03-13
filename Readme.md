@@ -93,7 +93,7 @@ For Frappe FrameWork we need some Pre-requistis i.e.
 ###  Creating a LMS Site on Frappe FrameWork
 First we run a command in the terminal 
 - bench new-site library.test
-![alt text]()
+![alt text](https://github.com/[pawandeep16]/[DailyBlog-Pawandeep]/blob/[main]/image.png?raw=true)
 
  
 

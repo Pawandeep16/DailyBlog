@@ -29,11 +29,11 @@ The LAMP stack is a popular open-source solution stack used primarily in web dev
 - Installing lamp on Ubuntu System.
 - Verifying by run LAMP on localhost.
 
-**Date : 3-Feb-2022 **
+**Date : 3-Feb-2022**
 ### Run Cgi Script
 A CGI script is any program that runs on a web server.
 
-**Date : 4-Feb-2022 **
+**Date : 4-Feb-2022**
 ### Image to video
 I need to Write a Script used to convert a Images into Video</p>
 
@@ -48,7 +48,7 @@ MoviePy is a Python module for video editing, which can be used for basic operat
    - you can found this at the bottom part of the file
 
 
-**Date : 5-Feb-2022 **
+**Date : 5-Feb-2022**
 ### Concatenate TextClips and Images
 Added the text CLips using the TextClip component from the Movepy Liberary 
 and Learned the Methods of Conacatenating Two clips with one another
@@ -59,7 +59,7 @@ and Learned the Methods of Conacatenating Two clips with one another
 - Convert the Hard Coded Script into Structured Script
 
 
-**Date : 8-Feb-2022 **
+**Date : 8-Feb-2022**
 ### Introduction to Github Pages
 - Getting Information What is GitHub Pages.
 - Create a New Repository on GitHub.
@@ -69,14 +69,14 @@ and Learned the Methods of Conacatenating Two clips with one another
 <br>
 
 
-**Date : 10-Feb-2022 **
+**Date : 10-Feb-2022**
 ###  Introduction To Frappe FrameWork
 Frappe FrameWork is a WebFrameWork written in **Python** and **JavaScript** and at the backend it is suppored by **node** js and database is handelled by the **Mariadb**
 The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
 
 After setting up Frappe Framework, you can be productive in no time. Creating models, wiring controller code and updating views are all handled by the framework.
 
-Date : 11-Feb-2022 
+**Date : 11-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 For Installation I Followed the installation Guide at https://frappeframework.com/docs/v13/user/en/installation <br>
 For Frappe FrameWork we need some Pre-requistis i.e.
@@ -86,10 +86,16 @@ For Frappe FrameWork we need some Pre-requistis i.e.
 - **MariaDB**
 - **Node**
 - **Bench CLI**
+  - Setting Up Bench <br>
+   Run the command to create our bench setup
+    - bench init frappe-bench
+    - cd frappe-bench 
+    - bench start
+<br>
 After setting up everything we can Create sites and apps according to our need
 
 
- Date : 12-Feb-2022 
+ **Date : 12-Feb-2022** 
 ###  Creating a LMS Site on Frappe FrameWork
 First we run a command in the terminal 
 - bench new-site library.test <br>
@@ -103,30 +109,46 @@ When we run the command
 It will start the bench and we can run it on localhost with provides link ad default it will run on  8000 port
  ![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/2.png)
 
-Date : 14-Feb-2022 
+
+**Date : 14-Feb-2022** 
+###  Creating Apps in Frappe
+Any kind of applications can be created on frappe wich give more controll and flexible use. 
+To create a new app  run command <br>
+- bench new-app library_management
+
+The app will create certains fille in the app folder the whole structure is 
+- **library_management**: This directory will contain all the source code for your app
+- **public**: Store static files that will be served from Nginx in production
+- **templates**: Jinja templates used to render web views
+- **www**: Web pages that are served based on their directory path
+- **library_management**: Default Module bootstrapped with app
+- **modules.txt**: List of modules defined in the app
+- **patches.txt**: Patch entries for database migrations
+- **hooks.py**: Hooks used to extend or intercept standard functionality provided by the framework
+- **requirements.txt**: List of Python packages that will be installed when you install this app
+ 
+**Date : 15-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 15-Feb-2022 
+**Date : 16-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 16-Feb-2022 
+**Date : 17-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 17-Feb-2022 
+**Date : 18-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 18-Feb-2022 
-###  Installation of Frappe FrameWork on linux based System:
-Date : 19-Feb-2022 
+**Date : 19-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 
-Date : 21-Feb-2022 
+**Date : 21-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 22-Feb-2022 
+**Date : 22-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 23-Feb-2022 
+**Date : 23-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 24-Feb-2022 
+**Date : 24-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 25-Feb-2022 
+**Date : 25-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
-Date : 26-Feb-2022 
+**Date : 26-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 
 Date : 28-Feb-2022 

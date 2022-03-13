@@ -80,7 +80,7 @@ After setting up Frappe Framework, you can be productive in no time. Creating mo
 
 Date : 11-Feb-2022 
 ###  Installation of Frappe FrameWork on linux based System:
-For Installation I Followed the installation Guide at https://frappeframework.com/docs/v13/user/en/installation .
+For Installation I Followed the installation Guide at https://frappeframework.com/docs/v13/user/en/installation <br>
 For Frappe FrameWork we need some Pre-requistis i.e.
 - **Git**  
 - **Python** 
@@ -88,6 +88,8 @@ For Frappe FrameWork we need some Pre-requistis i.e.
 - **MariaDB**
 - **Node**
 - **Bench CLI**
+After setting up everything we can Create sites and apps according to our need
+
 
  Date : 12-Feb-2022 
 ###  Creating a LMS Site on Frappe FrameWork
@@ -96,6 +98,9 @@ First we run a command in the terminal
 
 ![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png)
 
+When we run the command 
+- bench start  
+It will start the bench and we can run it on localhost with provides link ad default it will run on  8000 port
  
 
 Date : 14-Feb-2022 

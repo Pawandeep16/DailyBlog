@@ -2,7 +2,7 @@
 # DailyBlog Pawandeep Singh Thandi
 
 **Date : 1-Feb-2022**
-### Introduction to Linux & Installing Ubuntu
+## Introduction to Linux & Installing Ubuntu
 
 Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.
 
@@ -17,7 +17,7 @@ Linux is an open-source operating system like other operating systems such as Mi
 <br>
 
 **Date: 2-Feb-2022**
-### Introduction to LAMP Stack and Installation
+## Introduction to LAMP Stack and Installation
 
 The LAMP stack is a popular open-source solution stack used primarily in web development.LAMP consists of four components necessary to establish a fully functional web development environment. The first letters of the components' names make up the LAMP acronym:
 <br>
@@ -34,10 +34,10 @@ The LAMP stack is a popular open-source solution stack used primarily in web dev
 A CGI script is any program that runs on a web server.
 
 **Date : 4-Feb-2022**
-### Image to video
+## Image to video
 I need to Write a Script used to convert a Images into Video</p>
 
-# Moviepy
+## Moviepy
 MoviePy is a Python module for video editing, which can be used for basic operations (like cuts, concatenations, title insertions), video compositing (a.k.a. non-linear editing), video processing, or to create advanced effects. It can read and write the most common video formats, including GIF
 
 - install usign command pip install moviepy
@@ -49,7 +49,8 @@ MoviePy is a Python module for video editing, which can be used for basic operat
 
 
 **Date : 5-Feb-2022**
-### Concatenate TextClips and Images
+
+## Concatenate TextClips and Images
 Added the text CLips using the TextClip component from the Movepy Liberary 
 and Learned the Methods of Conacatenating Two clips with one another
 
@@ -60,7 +61,7 @@ and Learned the Methods of Conacatenating Two clips with one another
 
 
 **Date : 8-Feb-2022**
-### Introduction to Github Pages
+## Introduction to Github Pages
 - Getting Information What is GitHub Pages.
 - Create a New Repository on GitHub.
 - Setting Repository as the main branch and setting a theme for GitHub pages.
@@ -70,7 +71,7 @@ and Learned the Methods of Conacatenating Two clips with one another
 
 
 **Date : 10-Feb-2022**
-###  Introduction To Frappe FrameWork
+## Introduction To Frappe FrameWork
 Frappe FrameWork is a WebFrameWork written in **Python** and **JavaScript** and at the backend it is suppored by **node** js and database is handelled by the **Mariadb**
 The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
 
@@ -96,7 +97,7 @@ After setting up everything we can Create sites and apps according to our need
 
 
  **Date : 12-Feb-2022** 
-###  Creating a LMS Site on Frappe FrameWork
+## Creating a LMS Site on Frappe FrameWork
 First we run a command in the terminal 
 - bench new-site library.test <br>
 It will ask us to set adiministrator password for the site. 
@@ -111,7 +112,7 @@ It will start the bench and we can run it on localhost with provides link ad def
 
 
 **Date : 14-Feb-2022** 
-###  Creating Apps in Frappe
+## Creating Apps in Frappe
 Any kind of applications can be created on frappe wich give more controll and flexible use. 
 To create a new app  run command <br>
 - bench new-app library_management
@@ -127,8 +128,10 @@ The app will create certains fille in the app folder the whole structure is
 - **hooks.py**: Hooks used to extend or intercept standard functionality provided by the framework
 - **requirements.txt**: List of Python packages that will be installed when you install this app
 ![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/3.png)
+
+
 **Date : 15-Feb-2022** 
-###  Introduction to DocTypes in Frappe:
+## Introduction to DocTypes in Frappe:
 
 A DocType is the core building block of any application based on the Frappe Framework. It describes the Model and the View of your data. It contains what fields are stored for your data, and how they behave with respect to each other. It contains information about how your data is named. It also enables rich Object Relational Mapper (ORM) pattern which we will discuss later in this guide. When you create a DocType, a JSON object is created which in turn creates a database table.
 
@@ -137,6 +140,9 @@ To enable rapid application development, Frappe Framework follows some standard 
 1. DocType is always singular. If you want to store a list of articles in the database, you should name the doctype Article.
 2. Table names are prefixed with tab. So the table name for Article doctype is tabArticle.
 3. The standard way to create a DocType is by typing new doctype in the search bar in the Desk.
+
+A DocType not only stores fields, but also other information about how your data behaves in the system. We call this Meta. Since this meta-data is also stored in a database table, it makes it easy to change meta-data on the fly without writing much code.
+
 
 **Date : 16-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:

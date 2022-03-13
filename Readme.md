@@ -70,10 +70,58 @@ Date : 8-Feb-2022
 - Learning Syntax of Markdown Language in GitHub.
 <br>
 
-Date : 9-Feb-2022 
-
-<br/>
 
 Date : 10-Feb-2022 
-<h3 align='center'>Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js</h3>
-<br/>
+###  Introduction To Frappe FrameWork
+Frappe FrameWork is a WebFrameWork written in **Python** and **JavaScript** and at the backend it is suppored by **node** js and database is handelled by the **Mariadb**
+The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
+
+After setting up Frappe Framework, you can be productive in no time. Creating models, wiring controller code and updating views are all handled by the framework.
+
+Date : 11-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+For Installation I Followed the installation Guide at https://frappeframework.com/docs/v13/user/en/installation .
+For Frappe FrameWork we need some Pre-requistis i.e.
+- **Git**  
+- **Python** 
+- **Redis** 
+- **MariaDB**
+- **Node**
+- **Bench CLI**
+
+ Date : 12-Feb-2022 
+###  Creating a LMS Site on Frappe FrameWork
+First we run a command in the terminal 
+- bench new-site library.test
+![alt text]()
+
+ 
+
+Date : 14-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 15-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 16-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 17-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 18-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 19-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+
+Date : 21-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 22-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 23-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 24-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 25-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+Date : 26-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:
+
+Date : 28-Feb-2022 
+###  Installation of Frappe FrameWork on linux based System:

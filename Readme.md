@@ -145,7 +145,7 @@ A DocType not only stores fields, but also other information about how your data
 
 
 **Date : 16-Feb-2022** 
-### Types of DocType
+### Creating Library Management System in Frappe FrameWork.
 **Date : 17-Feb-2022** 
 ### Form Scripts
 **Date : 18-Feb-2022** 

@@ -103,7 +103,7 @@ First we run a command in the terminal
 It will ask us to set adiministrator password for the site. 
 After setting up password we are good to go.
 
-![command line](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png)
+![command line](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/images/image.png)
 
 When we run the command 
 - bench start  

@@ -143,13 +143,52 @@ To enable rapid application development, Frappe Framework follows some standard 
 
 A DocType not only stores fields, but also other information about how your data behaves in the system. We call this Meta. Since this meta-data is also stored in a database table, it makes it easy to change meta-data on the fly without writing much code.
 
+Before we can create DocTypes, we need to enable developer mode on our bench. This will enable boilerplate creation when we create doctypes and we can track them into version control with our app.
+
+##### bench set-config -g developer_mode true
+##### bench start
 
 **Date : 16-Feb-2022** 
-### Creating Library Management System in Frappe FrameWork.
+### Creating Article DocType for LMS
+
+Go To DocType list and here we can create a new doctype named article :
+- Enter the Name for the docType
+- Then We select a Module Named LMS which we have created earlier or we can create a new module.
+- Now we require fileds for the doctype we created the required below fields in the doctype:
+  - Article Name (type = data , and we set it as Mandatory )
+  - Image (type = Attach Image )
+  - Author ( Data )
+  - Description(Text Editor)
+  - ISBN(Data) 
+  - Status(Select , here we can add a drodown with options Issued and Available )
+  - Publisher( Data )
+we can also set the naming series for our artcles( as deafult it will use title as series )
+
+After adding the fields, click on Save.Our doctype is created and we can now Add data to our doctype.
+Now We can go to the article list and create " Article ".
+As we created new article the data wiil be pushed to the database in the form of tables and we can also check its data by giving command in the terminal 
+
+- bench bench --site library.test mariadb
+
+Here it will shoow all the database of a perticluar site.
+And we can check and update  our data using differnet sql commands by selecting differnet databasea and tables.
+
 **Date : 17-Feb-2022** 
-### Form Scripts
+### Adding functionality to the LMS
+
+A small example in order to provide the full name of the user we defined the following code in the 
+
+**class LibraryMember(Document):**
+    ** #this method will run every time a document is saved**
+    **def before_save(self):**
+        **self.full_name = f'{self.first_name} {self.last_name or ""}'**
+
+
+
 **Date : 18-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+###  Creating Different Doctypes with required for the LMS :
+
+
 **Date : 19-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:
 

@@ -179,18 +179,63 @@ And we can check and update  our data using differnet sql commands by selecting 
 A small example in order to provide the full name of the user we defined the following code in the 
 
 **class LibraryMember(Document):**<br/>
-    **this method will run every time a document is saved**<br/>
-    **def before_save(self):**<br/>
-        **self.full_name = f'{self.first_name} {self.last_name or ""}'**<br/>
+     #this method will run every time a document is saved**<br/>
+       def before_save(self):<br/>
+          self.full_name = f'{self.first_name} {self.last_name or ""}'**<br/>
 
 
 
 **Date : 18-Feb-2022** 
 ###  Creating Different Doctypes with required for the LMS :
 
+### Library MemeberShip
+It will have the following fileds 
+
+- Library Member (Link, Mandatory)
+- Full Name (Data, Read Only)
+- From Date (Date)
+- To Date (Date)
+- Paid (Check)
+
+We will enable the Submitable Part So after save the one must have to submit it and after submit one cant make any changes to the document.
+
+
+Now for the functionality:
+
+import frappe<br/>
+from frappe.model.document import Document<br/>
+from frappe.model.docstatus import DocStatus<br/>
+
+
+class LibraryMembership(Document):<br/>
+    # check before submitting this document<br/>
+    def before_submit(self):<br/>
+        exists = frappe.db.exists(<br/>
+            "Library Membership",<br/>
+            {<br/>
+                "library_member": self.library_member,<br/>
+                "docstatus": DocStatus.submitted(),<br/>
+                # check if the membership's end date is later than this membership's start date <br/>
+                "to_date": (">", self.from_date),<br/>
+            },<br/>
+        )<br/>
+        if exists:<br/>
+            frappe.throw("There is an active membership for this member")<br/>
+
 
 **Date : 19-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+###  Library Transaction :
+
+- Article - Link to Article
+- Library Member - Link to Library Member
+- Type - Select with 2 options: Issue and Return
+- Date - Date of Transaction
+
+#### Adding Validations For the Transaction:
+
+In the library_transaction.py File we going to make some server side code 
+
+
 
 **Date : 21-Feb-2022** 
 ###  Installation of Frappe FrameWork on linux based System:

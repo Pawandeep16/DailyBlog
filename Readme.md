@@ -224,31 +224,117 @@ class LibraryMembership(Document):<br/>
 
 
 **Date : 19-Feb-2022** 
-###  Library Transaction :
+##  Library Transaction :
 
 - Article - Link to Article
 - Library Member - Link to Library Member
 - Type - Select with 2 options: Issue and Return
 - Date - Date of Transaction
 
-#### Adding Validations For the Transaction:
+### Adding Validations For the Transaction:
 
 In the library_transaction.py File we going to make some server side code 
+For this We added some Code in the library_membership.py file in order to make a track on the valid membership for the library .
+
+![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/validationlms.png)<br/>
+![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/librarysettings.png)<br/>
 
 
 
 **Date : 21-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
-**Date : 22-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
-**Date : 23-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
-**Date : 24-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
-**Date : 25-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
-**Date : 26-Feb-2022** 
-###  Installation of Frappe FrameWork on linux based System:
+##  Form Scripts
 
-Date : 28-Feb-2022 
-###  Installation of Frappe FrameWork on linux based System:
+Form Scripts are client-side javascript code that enhances the UX of your Forms.
+
+example of this code is:
+we write this in .js file 
+frappe.ui.form.on('Library Member', {
+    refresh: function(frm) {
+        frm.add_custom_button('Create Membership', () => {
+            frappe.new_doc('Library Membership', {
+                library_member: frm.doc.name
+            })
+        })
+        frm.add_custom_button('Create Transaction', () => {
+            frappe.new_doc('Library Transaction', {
+                library_member: frm.doc.name
+            })
+        })
+    }
+});
+
+**Date : 22-Feb-2022** 
+##  Introduction to Github Pages
+
+- Getting Information What is GitHub Pages.
+- Create a New Repository on GitHub.
+- Setting Repository as the main branch and setting a theme for GitHub pages.
+"policy domain="path" rights="none" pattern="@*"- Learning about Personal access tokens for push Local Repository on GitHub.
+- Learning Syntax of Markdown Language in GitHub.
+
+**Date : 23-Feb-2022** 
+## Introduction to Reveal.JS, Pandoc, Use of Markdown in Reveal.js
+
+## Reve.js
+
+reveal. js is an open source HTML presentation framework. It's a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free. Presentations made with reveal. js are built on open web technologies.
+
+- What is Pandoc, Use Markdown in Reveal.js.
+- Creating Presentation in Reveal.JS using Markdown only.
+- Learn how to show presentation on Local machine.
+- Converting .md file into .pdf file using Pandoc.
+
+**Date : 24-Feb-2022** 
+##  Introduction to Docker, Virtual Machine and ERPNext
+
+## Docker
+
+Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.Docker Containers are Light-weight, Applications run in isolation,Occupies less space, Easily portable and highly secure, Short boot-up time.
+
+## Virtual Machine
+
+A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.  Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.
+
+- It can start only a single VM on a VMX.
+- It can run only a limited number of VMs on a system.
+- It can run multiple containers on a system.
+- It can start multiple containers at a time on the Docker engine.
+## ErpNext
+
+ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
+
+**Date : 25-Feb-2022** 
+##  Installing ERPNext Powered by Frappe on our bench: 
+
+- Pre requisite
+ - Frappe FrameWork 
+- For the perfect installation use this referance [Click here](https://github.com/D-codE-Hub/ERPNext-installation-Guide/blob/main/README.md). 
+
+**Date : 26-Feb-2022** 
+##  Introduction to Selenium, Budibase, Coding standard for program
+### Selenium 
+Selenium is an open source umbrella project for a range of tools and libraries aimed at supporting browser automation. It provides a playback tool for authoring functional tests without the need to learn a test scripting language
+
+### Budibase 
+Budibase is a development platform designed for speed and productivity.
+With Budibase, developers no-longer experience repetition, long-dev cycles, and frustration. Instead, developers are more productive, happier, and can deliver applications they're proud of in minutes.
+
+### Coding Standards
+
+How to write code in Any script so that it can easily read by other programmer who contribute to your project, take variable name which should be relevant with its function.
+
+- Use appropriate naming conventions.
+- Segment blocks of code in the same section into paragraphs.
+- Don’t use lengthy functions. Ideally, a single function should carry out a single task.
+- Standardize headers for different modules
+
+
+**Date : 28-Feb-2022**
+##  Introduction to Jinja Templating
+
+A Jinja template is simply a text file. Jinja can generate any text-based format (HTML, XML, CSV, LaTeX, etc.). A Jinja template doesn’t need to have a specific extension: .html, .xml, or any other extension is just fine.
+
+A template contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template. The template syntax is heavily inspired by Django and Python.
+
+![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/jhinja.png)<br/>
+

@@ -102,8 +102,8 @@ First we run a command in the terminal
 - bench new-site library.test <br>
 It will ask us to set adiministrator password for the site. 
 After setting up password we are good to go.
-
-![command line](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png)
+<img src="Images/image.png" class="img-responsive" alt="">
+<!-- ![command line](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/image.png) -->
 
 When we run the command 
 - bench start  

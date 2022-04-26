@@ -339,15 +339,95 @@ A template contains variables and/or expressions, which get replaced with values
 ![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/jhinja.png)<br/>
 
 **Date : 1-March-2022**
-##  
+## Education Domain in Erpnext
+
+ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using Frappe, a Python based server-side framework. ERPNext is a generic ERP software used by manufacturers, distributors and services companies.
+
+The ERPNext Education Module helps to organizing your entire set-up. You can have your entire Student Database, Fee Structure, Staffing Information, Courses, Curriculum Which we used for the Project Nanakana Sahib Public School and Guru Nanak Dev Engineering College Ludhiana.
+
+In this Domain We have 
+- Basic Setup
+- Student
+- Admission
+- Fees 
+- Schedule
+- Learning Management System
+- Attendance 
+- Assessment
+- Tools
+
+
+
 **Date : 2-March-2022**
-##  
+##  Setting Up ErpNext for School
+
+First we setup the parent Company with all the details and under that parent company we setup our school which further related to courses, program , room, student category etc.
+then our team divided the work for diferent modules.
+
+
 **Date : 3-March-2022**
-##  
+##  Fee Module
+
+In the Fee module we have 
+
+- Fee 
+- Fee Structure 
+- Fee Schedule
+- Fee Components 
+- Fee Category 
+
+### Fee 
+
+In the Fee section we can create a fee for an Individual student one by one
+We have to enter the Student ,due date and we can aslo edit post time and date 
+to create a fee we need some of its components which are described below:
+
+- Prerequisites
+  - Student 
+  - Fee Structure
+  - Fee Category
+
+
+### Fee Structure
+
+In the fee Structure we can define the type of fee like for which class and category of students what kind of fee should be there
+
+In the fee structure we to provide program , student categor, acedamic year, acedamic term .
+The important part we have to define the fee category components which includes the different kind of fee. 
+
+### Fee Category
+
+In the Fee Category we simply add the Different Fee components like Tution fee ,Bus fee,Books etc.
+
+Fee Schedule
+
+- Prerequisites
+  - Fee Structure
+  - Student group
+
+
+**Fee schedule** is used to add bulk data for fee according to the Student groups and studnet category.
+it will divide the grand_total with each group of students.
+just go to fee schedule and click new fee schedule
+after creating schedule just click create fee button on top that will create fee for the students
+
+### Payment Entry 
+
+To make a payment 
+go to fee list  the select a unpaid status candidate 
+Now on the top there is a Tab name Create in which we can select make payment and fill the parameters the then submit.
+
+
 **Date : 4-March-2022**
-##  
+##  Adding Fine to teh ouver Due fees 
+If the due date exceeds then the fine after due date will be automatically added to the grand total for the student. but my logic didnt fit to the right approach and got some errors realted to the fee schedule . so we are keeing it in the future scope.
+
+
 **Date : 5-March-2022**
-##  
+## Chat app For the Site 
+
+In the chat app any visitor for the site can ask for any reviews or querries for their doubts and will be answered in the specific time alloted by us by our facility member. 
+
 **Date : 7-March-2022**
 ##  
 **Date : 8-March-2022**

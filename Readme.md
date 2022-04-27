@@ -434,7 +434,8 @@ In the chat app any visitor for the site can ask for any reviews or querries for
 We can generate a csv template regarding ot a particular doctype and trhe we can add a particular data to ethe data type and then we can add the data in the abundace so it can save time.
 
 **Date : 8-March-2022**
-##  Learning about how to import data in erpnext from csv file
+##  Learn Module from Frappe School
+Gone through all the toturials related to the framework like client scripts and all the advanced stuff. provided by th developers.
 
 **Date : 9-March-2022**
 ##  

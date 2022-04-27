@@ -429,9 +429,13 @@ If the due date exceeds then the fine after due date will be automatically added
 In the chat app any visitor for the site can ask for any reviews or querries for their doubts and will be answered in the specific time alloted by us by our facility member. 
 
 **Date : 7-March-2022**
-##  
+## Learning about how to import data in erpnext from csv file
+
+We can generate a csv template regarding ot a particular doctype and trhe we can add a particular data to ethe data type and then we can add the data in the abundace so it can save time.
+
 **Date : 8-March-2022**
-##  
+##  Learning about how to import data in erpnext from csv file
+
 **Date : 9-March-2022**
 ##  
 **Date : 10-March-2022**

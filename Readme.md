@@ -177,12 +177,12 @@ And we can check and update  our data using differnet sql commands by selecting 
 ### Adding functionality to the LMS
 
 A small example in order to provide the full name of the user we defined the following code in the 
-
-**class LibraryMember(Document):**<br/>
-     #this method will run every time a document is saved**<br/>
-       def before_save(self):<br/>
-          self.full_name = f'{self.first_name} {self.last_name or ""}'**<br/>
-
+```
+class LibraryMember(Document):
+     #this method will run every time a document is saved
+       def before_save(self):
+          self.full_name = f'{self.first_name} {self.last_name or ""}'
+````
 
 
 **Date : 18-Feb-2022** 

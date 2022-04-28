@@ -206,7 +206,7 @@ import frappe<br/>
 from frappe.model.document import Document<br/>
 from frappe.model.docstatus import DocStatus<br/>
 
-
+```
 class LibraryMembership(Document):<br/>
     # check before submitting this document<br/>
     def before_submit(self):<br/>
@@ -221,7 +221,7 @@ class LibraryMembership(Document):<br/>
         )<br/>
         if exists:<br/>
             frappe.throw("There is an active membership for this member")<br/>
-
+```
 
 **Date : 19-Feb-2022** 
 ##  Library Transaction :
@@ -248,6 +248,7 @@ Form Scripts are client-side javascript code that enhances the UX of your Forms.
 
 example of this code is:
 we write this in .js file 
+```json
 frappe.ui.form.on('Library Member', {
     refresh: function(frm) {
         frm.add_custom_button('Create Membership', () => {
@@ -262,7 +263,7 @@ frappe.ui.form.on('Library Member', {
         })
     }
 });
-
+```
 **Date : 22-Feb-2022** 
 ##  Introduction to Github Pages
 

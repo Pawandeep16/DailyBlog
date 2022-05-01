@@ -3,7 +3,7 @@
 
 **Date : 1-Feb-2022**
 ## Introduction to Linux & Installing Ubuntu
-![image](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/2.png)
+
 
 
 Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.
@@ -95,6 +95,8 @@ For Frappe FrameWork we need some Pre-requistis i.e.
     - cd frappe-bench 
     - bench start
 <br>
+![image](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/2.png)
+
 After setting up everything we can Create sites and apps according to our need
 
 
@@ -212,17 +214,17 @@ from frappe.model.docstatus import DocStatus<br/>
 class LibraryMembership(Document):<br/>
     # check before submitting this document<br/>
     def before_submit(self):<br/>
-        exists = frappe.db.exists(<br/>
-            "Library Membership",<br/>
-            {<br/>
-                "library_member": self.library_member,<br/>
-                "docstatus": DocStatus.submitted(),<br/>
-                # check if the membership's end date is later than this membership's start date <br/>
-                "to_date": (">", self.from_date),<br/>
-            },<br/>
-        )<br/>
-        if exists:<br/>
-            frappe.throw("There is an active membership for this member")<br/>
+        exists = frappe.db.exists(
+            "Library Membership",
+            {
+                "library_member": self.library_member,
+                "docstatus": DocStatus.submitted(),
+                # check if the membership's end date is later than this membership's start date 
+                "to_date": (">", self.from_date),
+            },
+        )
+        if exists:
+            frappe.throw("There is an active membership for this member")
 ```
 
 **Date : 19-Feb-2022** 
@@ -437,25 +439,71 @@ In the chat app any visitor for the site can ask for any reviews or querries for
 We can generate a csv template regarding ot a particular doctype and trhe we can add a particular data to ethe data type and then we can add the data in the abundace so it can save time.
 
 **Date : 8-March-2022**
-##  Learn Module from Frappe School
+## Learn Module from Frappe School
 Gone through all the toturials related to the framework like client scripts and all the advanced stuff. provided by th developers.
 
 **Date : 9-March-2022**
-##  
+## Meeting App
+
+- Understand the structure of meeting app.
+- Understand the javascript code and python code of meeting app.
+
 **Date : 10-March-2022**
-##  
+## Presentation and discussion of meeting app
+
+- Telling about the importance of doctype in Frappe-Framework.
+- Discuss with all team how it works and how we create new custom app.
+
 **Date : 11-March-2022**
-##  
+## Creating own Noticeboard app
+NoticeBoard for an institute regarding to the important information provided by the Institute 
+- Create Doctype according to structure discussed in team.
+- contains the title,description,signature of the uploader and date 
+- Also can see how many have seen the notice.
+
 **Date : 12-March-2022**
-##  
+##  Created Different Fee Structures on the Server Site 
+
+Implemented Different fee Structures based on the Student Category and the program i.e from lkg to 10th.
+So while creating new fees, fees should be added automatically by selecting Fee Structure. We are trying to add an admission fee in Student form along with this we are exploring where all the records are saved so that we keep track how many fees are paid or pending. We track this record in 'Report Student fee collection' doctype. We are also trying to add a penalty on overdue fees but we find this feature is not currently available in erpnext.
+
 **Date : 14-March-2022**
-##  
+## Learning about Workflow
+- Today I'm learning Workflow in ErpNext.
+- Understand how to pass control to different manager.
+- Trying to implement Purchase order list and trying to approve it from purchase manager and material manager.
+
 **Date : 15-March-2022**
-##  
+## Dynamic WebPages In Frappe
+
+- First we need to create www directory in any Frappe app.
+- Then need to create two files Python file for fetching data from database.
+- Other file is html file in which i use jinja template to show record on webpage.
+
 **Date : 16-March-2022**
-##  
+##  Helping the Teammates realted to their work
+
+As I was free from my task so as being a part of sdc team.I was trying to resolve some of my mate's issues.
+helped in chat aapp in order to provide specific roles to specific user so only they get to see their msg.
+
 **Date : 17-March-2022**
-##  
+## Give Presentation About Github
+
+So being a part of a developer team one must need to Know Github in order to have a seamless conversation , information and code can be shared easily.
+Give them about the introduction about github 
+the basic github commands
+- git init - to initialize a repository 
+- git add . to add the whole files and folder 
+- git add filename.extension to add the  specific file 
+- git commit -m "Your Message" to commit the changes 
+- git remote add origin git URL
+- git push -u origin [branch name]
+- git stash clear	 -to clear all stashed enteries
+- git checkout branch_name  move across beanches of specifi reporsitory 
+- git status to check the curent status of the files
+- git pull origin [branch name] pull changes from the remote url
+- form Documentation [Click here](https://github.com/joshnh/Git-Commands) 
+
 **Date : 18-March-2022**
 ##  
 **Date : 19-March-2022**

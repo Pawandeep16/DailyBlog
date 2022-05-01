@@ -505,9 +505,19 @@ the basic github commands
 - form Documentation [Click here](https://github.com/joshnh/Git-Commands) 
 
 **Date : 18-March-2022**
-##  
+## Understand the code available in Frappe
+
+Understanding the code available in all-products, then we are trying to add items in item lists, then we face problem after few search then We add items in (item lists), then add item in (website item), then setting up e-commerce settings now we successfully use search, prev & next. Now we are trying to apply it in a pagination file so we dont have to do the repetative task again and again in order to maintain the co-relation.
+
+
 **Date : 19-March-2022**
-##  
+##  Installing new Erpnext on server
+
+- First we install the new instance of  frappe framework on the Server then install erpnext with education domain.
+- After this we are collecting students areound 5000 and teachers (114) data from Nankana Sahib Public School.
+- Arranging data according to doctype in erpnext.
+- Setting up the school.  
+
 **Date : 21-March-2022**
 ##  
 **Date : 22-March-2022**

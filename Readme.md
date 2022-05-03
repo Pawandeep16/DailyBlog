@@ -511,34 +511,107 @@ Understanding the code available in all-products, then we are trying to add item
 
 
 **Date : 19-March-2022**
-##  Installing new Erpnext on server
+## Adding Search Filter to the List view of specific data.
 
+After Understandig the code of the Framework I tried to get the inbuild code and make it useful in the List View and Successfully I make it usefull for the List view and made changes as per required.But for sorting I'm working on it.
+
+
+**Date : 21-March-2022**
+## Give presentation on the file Structure of the Framework.
+Provide the clean view of the frappe framework about the file structuring with my mate vishal . Just as we create a new app or new website what kind of file are genrated and what kind of file structure it follows and which file is used to do specific fuction or conatins what kind of information 
+
+
+**Date : 22-March-2022**
+## Installing new Erpnext on server
 - First we install the new instance of  frappe framework on the Server then install erpnext with education domain.
 - After this we are collecting students areound 5000 and teachers (114) data from Nankana Sahib Public School.
 - Arranging data according to doctype in erpnext.
 - Setting up the school.  
 
-**Date : 21-March-2022**
-##  
-**Date : 22-March-2022**
-##  
 **Date : 23-March-2022**
-##  
+##  Arrange naming series company wise
+While new applicant is registered in system by default system generate naming series. We are trying to change it company wise For eg. if we are member of company A, then naming series include A-2022-00001.</p>
+For this we follow official erpnext tutorial [More Detail](https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/articles/company-wise-naming-series#:~:text=The%20need%20is%20to%20create,be%20SINV%2DB%2D0001.)
+Using this we get error the we take reference from other discuss.erpnext where we use (.abbr.-.YYYY.-) in option of Naming Series
+
 **Date : 24-March-2022**
-##  
+## Arranging Student data
+
+- As there are large data of students in school we need to make it correct.
+- so we all divide work in team and understanding the concept of filter, concatinate etc. in excel.
+- First we export the required format of csv file then we edit the csv file provided by the school according to our need and import thr data to the server.
+
+
 **Date : 25-March-2022**
-##  
+## Assessment Module
+Assessment procedure to evaluate the students' curricular performance in a period.
+Following are the Pre-requists required for the generation of assessment report.
+- Assessment Criteria
+- Assessment Group
+- Grading Scale
+
 **Date : 26-March-2022**
-##  
+##  Assessment Criteria and Assessment Group
+
+Marks earned are entered based on the ***Assessment Criteria***. For example, if the assessment was conducted for science subjects, then you can evaluate Student in Science on various criteria like Theory and Practical etc.
+In ***Assessment Group*** if we wish to conduct an assessment for each Academic Term within an Academic Year e.g MST1,MST2 and ESE then these were the assessment groups.
+
 **Date : 28-March-2022**
-##  
+##  Assessment Plan and Assessment Result
+An Assessment Plan is a schedule to conduct the examination/assessment of a particular course for a group of students studying that course in an on-going academic term.
+Prerequisites:
+- Student Group
+- Course
+- Program
+- Assessment Group
+- Grading Scale
+
+***Assessment Result*** is a log of marks/grades earned by the student for specific Assessment.An Assessment Result is created in the backend based on the marks entered in the Assessment Result Tool.
+
 **Date : 29-March-2022**
-##  
+## Web Manager Vs Website Manager
+
+- For new users we create web manger who has permission to create webpage,See on website, Search box, can't create webform.
+- Website Manager can delete webpage, read webpage but cannot create, Search bar not shown.
+- We assign new user web user so that they can access gne11 website with some restriction.
+
 **Date : 30-March-2022**
-##  
+## Adding New role and Give Permission to new Users
+- When we got new user for allow them to create Library Management System we need to give them the access of doctype modules.
+- For this we go to doctype list and create new role where new user create doctype by can't delete doctype.
+- Similarly for Module we use select permission where user can select module but can't read module.
+
 
 **Date : 02-May-2022**
 ## Hackahone day 1
+### Roles and flow for Parent Comapany:-
+***Director***:-   Director will have all permissions like fees, salary,
+accounts , total gain etc but with read only access.
+***Accountant***:- will have permissions to see all the account information
+of trust, nsps, gndec.     Accountant will have read, write access to
+create the fee and salaries of the employee and also can create the
+fee report and salary report.
+***HR***:- HR will have permission to create the users and make them
+employees, leave allocation, holiday list, salary of employee.
+Superintendent
+
+### Roles and flow for Child Comapany:-
+
+***Principal***:- Will have only read only access to all the education
+domain related information and HR related information.
+
+ ***Accountants***:- 1 For students fee and 1 for salaries of employees.
+Teaching Incharge:-  Will do all the tasks of academic user like
+course scheduling etc.
+
+***HR***:- will create employees and instructors only for Nankana sahib
+Public School, leave allocation, salary of employees etc. We need to
+show all the reports like employees attendance report, salary report,
+leave report etc to the HR..
+
+***Instructors***:- will have access to student attendance, quiz, videos,
+article, Diary, Student list etc.
+
 
 **Date : 03-May-2022**
 ## Hackahone day 2

@@ -341,7 +341,26 @@ A Jinja template is simply a text file. Jinja can generate any text-based format
 
 A template contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template. The template syntax is heavily inspired by Django and Python.
 
-![alt text](https://github.com/Pawandeep16/DailyBlog-Pawandeep/blob/main/Images/jhinja.png)<br/>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <ul id="navigation">
+    {% for item in navigation %}
+        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <h1>My Webpage</h1>
+    {{ a_variable }}
+
+    {# a comment #}
+</body>
+</html>
+```
 
 **Date : 1-March-2022**
 ## Education Domain in Erpnext

@@ -585,12 +585,15 @@ Prerequisites:
 **Date : 02-May-2022**
 ## Hackahone day 1
 ### Roles and flow for Parent Comapany:-
-***Director***:-   Director will have all permissions like fees, salary,
+
+***Director***:- Director will have all permissions like fees, salary,
 accounts , total gain etc but with read only access.
+
 ***Accountant***:- will have permissions to see all the account information
 of trust, nsps, gndec.     Accountant will have read, write access to
 create the fee and salaries of the employee and also can create the
 fee report and salary report.
+
 ***HR***:- HR will have permission to create the users and make them
 employees, leave allocation, holiday list, salary of employee.
 Superintendent
@@ -600,7 +603,7 @@ Superintendent
 ***Principal***:- Will have only read only access to all the education
 domain related information and HR related information.
 
- ***Accountants***:- 1 For students fee and 1 for salaries of employees.
+***Accountants***:- 1 For students fee and 1 for salaries of employees.
 Teaching Incharge:-  Will do all the tasks of academic user like
 course scheduling etc.
 

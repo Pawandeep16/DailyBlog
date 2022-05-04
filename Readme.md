@@ -600,9 +600,42 @@ Prerequisites:
 - For this we go to doctype list and create new role where new user create doctype by can't delete doctype.
 - Similarly for Module we use select permission where user can select module but can't read module.
 
+**Date : 01-April-2022**
+## Working with Client Script in Form
+Client Script is script in which we add some action on form so that we validate data or do other function.
+- Webform script is which is done in webform while creating new webform.
+- For Reference we use Web form Scripting Documentation [Click here](https://frappeframework.com/docs/v13/user/en/api/form)
+
+**Date : 02-April-2022**
+## User Permissions
+A role is a set of permissions assigned to a user so that they can access the documents they need to. For example, a student  will need access to his/her/it courses but will not have access to read or write them.
+If in case we need to create a user with some specific permissions we can give it through user permissions.
+
+**Date : 05-April-2022**
+## Creating Library Management System
+As per official documentation I created Library Management App.
+ - Install app on site then creating doctype.
+ - Use Features like Naming Series, Permission Rules. 
+ - Learn Controller methods, Doctype Features, Form Scripts. 
+ - Adding Web view for preview Articles on web.
+
+**Date : 06-April-2022**
+## 
+**Date : 07-April-2022**
+## 
+**Date : 09-April-2022**
+## 
+**Date : 10-April-2022**
+## 
+**Date : 11-April-2022**
+## 
+**Date : 12-April-2022**
+## 
+**Date : 13-April-2022**
+## 
 
 **Date : 02-May-2022**
-## Hackahone day 1
+## Hackathon day 1
 ### Roles and flow for Parent Comapany:-
 
 ***Director***:- Director will have all permissions like fees, salary,
@@ -636,4 +669,4 @@ article, Diary, Student list etc.
 
 
 **Date : 03-May-2022**
-## Hackahone day 2
+## Hackathon day 2

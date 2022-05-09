@@ -841,3 +841,30 @@ with given credentials. Also we learn about Salary Structure and
 Salary Component of employees. In meeting with Harpreet sir, we learn
 about PF, Taxes, Funds, Earnings and Deductions etc. We will explore
 it and implement on gne11.GNE.
+
+**Date : 9 May-2022**
+## Image Specifications To Web From
+
+First I tried to get the image path file from the user that uploads it and then from the use of that source
+Got the Image Width and Height and then put some conditions and make it validate. First got some errors like it saves the form even after errors shown. the need to put some frappe web form components.In the end It works like charm.
+sample code is as follows:
+```
+  var img = new Image();
+                 img.src = value;
+                 img.onload = function () {
+                     var height = this.height;
+                     var width = this.width;
+                     console.log(height, width)
+                     frappe.web_form.validate = () => {
+                     if ((height > 1000 || width > 1000) || (height < 350 || width < 350)) {
+                         frappe.throw("Height and Width must be Between 1000px and 350px");
+                         return false;
+                     }
+                     return true;
+                 
+                 }
+     
+                 }
+
+```
+

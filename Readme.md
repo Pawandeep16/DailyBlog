@@ -832,3 +832,12 @@ We need to generate all the reports and graphs for necessary
 information for each role.
 
 Inventory Management
+
+Today, We created Director user of NSET, Superintendent of NSET,
+Principal user of NSPS and HR user of NSPS on erp server and gave them
+all the required permissions. And same roles are created on gne11.GNE,
+whose credentials are shared in other mail. You can check that roles
+with given credentials. Also we learn about Salary Structure and
+Salary Component of employees. In meeting with Harpreet sir, we learn
+about PF, Taxes, Funds, Earnings and Deductions etc. We will explore
+it and implement on gne11.GNE.

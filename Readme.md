@@ -820,3 +820,15 @@ article, Diary, Student list etc.
 
 **Date : 03-May-2022**
 ## Hackathon day 2
+
+***Students***:- will have access of only LMS and on lms they will have
+access of programs, Courses, Quizzes, Videos, Articles, daily diary
+and attendance.
+
+***Accountant***:- will create the salaries of employees and fees of
+students, will generate the balance sheet.
+
+We need to generate all the reports and graphs for necessary
+information for each role.
+
+Inventory Management

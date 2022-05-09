@@ -842,6 +842,13 @@ Salary Component of employees. In meeting with Harpreet sir, we learn
 about PF, Taxes, Funds, Earnings and Deductions etc. We will explore
 it and implement on gne11.GNE.
 
+**Date : 5 May-2022**
+## Creating Presentation in Revel.js
+Created Presentation for the Whole Project To so that we can present our wrok to the trusties so with the team we created a presentation  whcih contains all the infomation related to the erp Syatem which deals with the all kind of accounting, maintaing all students,staff and employees and pushed on github.
+
+
+
+
 **Date : 9 May-2022**
 ## Image Specifications To Web From
 

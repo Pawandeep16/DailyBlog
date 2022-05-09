@@ -613,7 +613,7 @@ If in case we need to create a user with some specific permissions we can give i
 
 **Date : 05-April-2022**
 ## Creating Library Management System
-As per official documentation I created Library Management App.
+As per official documentation created Library Management App.
  - Install app on site then creating doctype.
  - Use Features like Naming Series, Permission Rules. 
  - Learn Controller methods, Doctype Features, Form Scripts. 
@@ -621,18 +621,168 @@ As per official documentation I created Library Management App.
 
 **Date : 06-April-2022**
 ## 
-**Date : 07-April-2022**
-## 
-**Date : 09-April-2022**
-## 
-**Date : 10-April-2022**
-## 
+
+**Date : 8-April-2022**
+## Writing Requirement and Specifications For the Souvenir Project
+Today Sir explained us all the requirements of the souvenir project and what is the required outpiut of this project. Sir also explained us the yadein project which was used to generate souvenir of all the students near about 10 years ago And all the technology used in the yadein project. I accepted the souvenir project. So sir told me to first write the requirements and specifications of the projects and to share it with the sir. 
+
+
+**Date : 9-April-2022**
+## Acceptence of the Requirements of Souvenir
+Today the requirements and specification of the souvenir project got approval form the sir :) 
+After this i immediately started working on souvenir project. Fisrt i created a doctype named souvenir with some fields like name, branch, urn, crn, dob, fathers name, mothers name etc, and there are two sections avialble for the friends Info of friend1, And Info of Friend2 in these field students will fill the details of their friends and comments for them. 
+After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.
+
+
 **Date : 11-April-2022**
-## 
+
+## Souvenir on server
+After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And  was also working on the education domain of erpnext for nankana sahib public school.
+ 
+
 **Date : 12-April-2022**
-## 
+
+## Souvenir on Server
+Today I was working on the souvenir form. On our website i wasn't able
+to access the web form due to server exception.Then i created the
+souvenir doctype and souvenir webform on my local erpnext system. Sir
+told me to refresh the gne11.gndec.ac.in and pray sincerely :) . After
+this i was able to access the web form. Now the problem is that the
+user is able to attach image in the image field with login. But user
+is not able to attach image in the image field  (but user is able to
+select image of their choice). I also tried it on my local erpnext
+system, on that i am getting same problem.
+
+
+
 **Date : 13-April-2022**
-## 
+## Souvenir and Basic coding guide part-1
+
+Today  working on souvenir web-form sir told us to add some more fields in the souvenir web form and do some changes in it.
+Also have read the basic coding guide part-1 it was very fun to read this as like reading they have explained each and every this in a wonderful way.
+For the basic coding  fro particular web form I follow this Documnetation [Click Here](https://frappeframework.com/docs/v13/user/en/web-forms)
+
+
+**Date : 15-April-2022**
+
+## Presentation of Nankana Sahib Public School Project
+Today we had a meeting with Satinder Sir and a teacher from Nankana Sahib Public School. In today's meetings we all presented what we have done till now. We showed them the whole workflow to add a student. For which first we need to add a student applicant and explained that there are two methods for this one is online by using web form and another is offline after the application is accepted we can enroll them in the programs by single-2 enrollment of every student and by using the program enrollment tool and we showed them the lms interface of student how student is going to access the programs and courses and quizzes.
+After student section we showed them the whole working of instructor how instructor can add content like articles, videos and quizzes in lms, mark the attendance of students etc. After Instructor we presented the HR module how to generate payrolls, salary slips, attendance of employees etc.
+
+
+
+**Date : 16-April-2022**
+
+## Fetching data from another doctype in doctype
+Today we  were trying to fetch the fields in the souvenir doctype from other doctypes .we were able to fetch branch name (username) etc. After that we were trying to migrate the souvenir doctype. but  not able to do it on my local erpnext as we are getting an error related to supervisor. we were trying to create an app named souvenir so that one can easily fork it from my repository but we are getting error so vishal created an app named souvenir on his local erpnext and added it to his github and wetried to fork it from his repository again we were getting error related to souvenir.
+
+
+**Date : 18-April-2022**
+
+## Error On local erpnext 
+Today we were continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
+new app named Souvenir_Form then installed it on site. Then I have created a new doctype named Souvenir and a web form named souvenir on my local system.
+
+
+
+**Date : 19-April-2022**
+
+## Presentation Of all the topics
+Today Me and Vishal gave presentation to all my mates in which about the building Structure of Frappe and Erpnext and the Functionality of all the files and folder and their meaning and also procide some demo about the code and the generation of files,,
+. Currently I am working on web form validations in order to procide a clean form for the user so that we got proper information and make clg's own form instead of using google forms.
+
+
+**Date : 20-April-2022**
+
+## Validations on web form
+I  implemented the validations in the souvenir web form like
+in phone number field user can only enter 10 digits,  and crn and urn
+field will accept only 7 digit numbers. Pushed the project
+as an app on the github and anyone can install it on their site using this [Link](https://github.com/Pawandeep16/NewSov.git)
+Now I was trying to auto populate the data with the users info so that he/she/it did'nt need to fill the fields whose data we already have.
+
+
+
+
+
+**Date : 21-April-2022**
+## Installation of Souvenir app on Gne11
+I have installed the souvenir_form app on our [Test Site](gne11.gndec.ac.in) I was getting server exceptions on the web form. After some time it was working well and i was able to enter the data in the form. 
+
+
+
+**Date : 22-April-2022**
+ 
+## Validations on web form
+Did the validations on web form as previously we had implemented validations on web form but wasn't proper validations. As it was just showing the error message after cancelling the error the user information was getting saved. So it was not proper validations. So we again implemented the validations with proper functions and events and tested it properly as a tester. 
+```js
+frappe.web_form.validate = () => {
+    let data = frappe.web_form.get_values();
+    if (data.amount < 1000) {
+        frappe.msgprint('Value must be more than 1000');
+        return false;
+    }
+});
+
+```
+
+
+ **Date : 23-April-2022**
+
+##Working to fetch data from user doctype in souvenir doctype
+Trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
+Successfully fetched the data using pyhton events and then i Whitelisted these events and used them in the call function in the docype js file and got the data.
+```py
+from __future__ import unicode_literals
+import frappe
+from frappe import _
+import frappe.client
+import frappe.handler
+
+def get_context(context):
+    pass
+
+@frappe.whitelist()
+def get_detail(user = None):
+	p = frappe.db.get_value("User", user, ["email","user_image","mobile_no","birth_date","gender","location","full_name"])
+	return p	
+        
+@frappe.whitelist()
+def get_details(user = None):
+	p = frappe.db.get_value("Souvenir", user, ["email","image","contact_no","date_of_birth","gender","address","name1"])
+	return p	
+        
+```
+
+
+
+**Date : 25-April-2022**
+
+## Fetching Data on web form
+Today we were trying to get the prefilled data in the souvenir web form so that user doesn't need to fill the information agaian and again as all the information is previously available. We implemented the same function which we had applied in doctype but these events are not working on the web form. To find the another alternative event we are searching online and watching youtube tutorials but till now we haven't got any
+solution ;) . We are trying our best to get it done as soon as possible.
+The problem that I was facing was the reason was that the path that seicifies the particular function of the python to trigger was incorrect with a little difference.
+
+**Date : 26-April-2022**
+
+## Presentation on Souvenir Project 
+Today I gave presentation to all my mates on souvenir project. I
+showed them all the requirements and specification. I also showed them
+the overall workflow of the project and what i have done till now and
+what is the required output.
+
+
+
+**Date : 27-April-2022**
+
+## Successfully fetched data from souvenir doctype to souvenir web form
+Today we succesfully fetched the data from souvenir doctype to the souvenir webform :) . But our main task was to get it form user list ;) .
+we successfully  did populate the souvenir doctype from user doctype and
+then i was trying to fetch the data  to the webform but it didn't work
+but when we add data to the souvenir_doctype
+it will auto populate the webform.
+I found this discussion and here one say fetch doesnt work on webform.
+
 
 **Date : 02-May-2022**
 ## Hackathon day 1

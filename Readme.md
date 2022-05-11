@@ -875,4 +875,10 @@ sample code is as follows:
 
 ```
 **Date : 10 May-2022**
-##  
+## Adding Discount % According To The Siblings in Fee Module
+
+Working on Fee Module .New Requirement is that we have to gave discount if a studnet has siblings in the same institute.So what I did is that I triued to fetch the siblings from the basic details of the students and while creating fee I added diffent functuions that calculate the fee discounts on various siblings ways.
+
+
+**Date : 11 May-2022**
+## Transporation Module in Fee 

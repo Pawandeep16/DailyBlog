@@ -882,3 +882,61 @@ Working on Fee Module .New Requirement is that we have to gave discount if a stu
 
 **Date : 11 May-2022**
 ## Transporation Module in Fee 
+We were trying to add the Transportation fee in the fee module so the student who were travelling through the institute transportaion his/her fee will be added to the fee of the student . for this we created doctype for the bus_route and then like that to the bus_comonents in which we have description route and paid amount.
+
+**Date : 12-May-2022**
+## Learn Different Salary component for Employee Salary
+
+- Basic Pay of employee as per college pay scale.
+- Add 5% Interim Relief in Basic pay.
+- Adding Dearness allowance 142% in Basic Pay.
+- Medical Allowance,CCA,PF(10%),HRA.
+- These all are Earning in salary.
+- Then we add Deduction component like PF(20%),Development tax, GI, SML, SMAF.
+- By calculating all Earning & Deduction, we get Net Paid Amount. 
+
+
+**Date : 13-May-2022**
+ ## Creating Salaries
+
+- First we create salary component which are fixed these are declared in Salary Component.
+- Next Create Salary Structure in which we group all Salary Component which are earning and deduction components.
+- Setting up formula on Basic Pay like calculate IR(5%), ADA(142%) etc.
+- After Successfully creating salary structure assigning it to employee where we define the Basic pay of Employee.
+- At last in Salary Slip we select employee to whom we assign salary then salary structure automatically fetched and calculate base salary.    
+
+
+
+**Date : 14-May-2022**
+## Understand the Salary Structure of different employees
+
+- We are going to Accounts Department for understanding Salary structure of different employees.
+- Understand their requirement related to salary like for different employee, there should be different grade pay.
+- So they want they have customize option to add grade pay or not.
+- They want also seprate record file for provident fund record of employees, provident fund loan record file.
+
+
+
+**Date : 16-May-2022**
+## Learning Salary Component for New Requirement
+
+- First when we change our company from NSPS to GNDEC.
+- Then all the Salary Components of employee are visisble in Salary Components but are not shown in Salary structure.
+- After that we are finding some other solution so that we can use same structure in two companies. 
+
+
+**Date : 17-May-2022**
+## Creating Salary Structure
+
+- After Creating all Salary components which are combined for all the employees.
+- Now we are creating Salary Structure which is the combination of Salary Components in which we list all Earning and deduction components.
+- In this we set formula that if basic pay is assigned to employee during the assignment of Salary Structure and Grade pay is added to employee when     generating Salary Slip only then all the Earning and deduction components are calculated.
+- The calculation is done when we save the salary slip in draft state after submit we can't modify it but in draft state we can made any changes at any time like adding or deleting components.
+
+
+**Date : 26-May-2022**
+## Automation of Fee Creation of the Students
+
+Once we created the fee of teh student for a single month now we have a problem is that we have to repeat the task again for every month so we need to automate this process in order to provide the clean and efficient approach.So we automate this process with auto-repeat tool and makes evry student fee on repeat once it created. It will automatically created after every month and we set the due date 15 days ahed of the date of creation of the fee so the status of the fee will be changes to overdue after due date.
+
+

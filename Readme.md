@@ -969,7 +969,7 @@ For creating new school leaving certificate format goto print format. For Adding
 
 
 **Date : 24-May-2022**
-## Sending Messages to specific Students using ERPNext
+## Sending Messages to specific Students 
 
 - Creating New Email Group Add Subscribers to whom we want to send emails.
 - We can them in a bluk by writing their emails.
@@ -978,7 +978,7 @@ For creating new school leaving certificate format goto print format. For Adding
 - Save the newsletter we have another option schedule sending mail automatically.  
 
 **Date : 25-May-2022**
-## Creating Collapse view without using ErpNext Desk using Bootstrap
+## Creating Collapse view  in Desk using Bootstrap
 
 - First we create collapse multiple tab effect with bootstrap and html.
 - In which we use bootstrap classes with html tags.
@@ -1053,8 +1053,11 @@ frappe.listview_settings["Student"] = {
 ```
 
 **Date : 28-May-2022**
-## Automation of Fee Creation of the Students
+## Generation of Student's School Leaving Certificate 
+
 
 **Date : 30-May-2022**
-## Automation of Fee Creation of the Students
+## Notifications to students when Fee are Paid and overdue
 
+**Date : 30-May-2022**
+## Notifications to students when Fee are Paid and overdue

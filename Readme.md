@@ -987,15 +987,70 @@ For creating new school leaving certificate format goto print format. For Adding
 - Replace Html starting tags with jinja starting template and trying to fetch data from database.
 
 **Date : 26-May-2022**
+
 ## Automation of Fee Creation of the Students
 
 Once we created the fee of teh student for a single month now we have a problem is that we have to repeat the task again for every month so we need to automate this process in order to provide the clean and efficient approach.So we automate this process with auto-repeat tool and makes evry student fee on repeat once it created. It will automatically created after every month and we set the due date 15 days ahed of the date of creation of the fee so the status of the fee will be changes to overdue after due date.
 
 **Date : 27-May-2022**
-## Automation of Fee Creation of the Students
+
+## Bank account which holds all the records of collection of fees
+
+For creating new Fee collection head Create a new Account. Add account name, Select Company name, Currency type. Select Balance type (Debit or Credit), Select Parent account type (Income account or Expenses account). After Creating head verify it in Company Cost center, while creating new Fee slip under Accounting Section select income account in which you want to add new fees.
 
 **Date : 28-May-2022**
-## Automation of Fee Creation of the Students
+## Enable Disable Students on the basis of their Fee Status 
+Requirement is that we need  to remove the access from those students whose Fee satatus is overdue For this purpose First of all we fetched all the students from the fee list whose status is unpaid.
+
+```py
+@frappe.whitelist()
+def get_over_due():
+    due = frappe.db.sql(f""" SELECT name,student,student_name,academic_year,due_date,outstanding_amount  FROM `tabFees` where due_date <= '{today()}' and outstanding_amount > 0 """,as_dict = True)
+    return due
+
+@frappe.whitelist()
+def get_paid():
+    paid = frappe.db.sql(f""" SELECT name,student,student_name,academic_year,due_date,outstanding_amount  FROM `tabFees` where  outstanding_amount = 0 """,as_dict = True)
+    return paid
+```
+
+and then use this fetched data to make the students disable the access from the LMS systm.
+```js
+frappe.listview_settings["Student"] = {
+  add_fields: ["title", "name", "gender"],
+  // set default filters
+
+  before_render(doc) {
+    console.log("y");
+
+    // triggers before every render of list records
+  },
+  get_indicator(doc, frm) {
+
+    if (doc.enabled == 1) {
+      frappe.call({
+        method: "erpnext.education.api.get_over_due",
+        callback: function (r) {
+          if (r) {
+            $.each(r.message, function (i, d) {
+              if ((i, d.student === doc.name)) {
+                frappe.call({
+                  method: "frappe.client.set_value",
+                  args: {
+                    doctype: "Student",
+                    name: doc.name,
+                    fieldname: "enabled",
+                    value: 0,
+                  },
+                  freeze: true,
+                  callback: function (r) {
+                    frappe.msgprint(
+                      __(
+                        `Student ${doc.title} has been Disable from Access because of overdue fee`
+                      )
+                    },
+        
+```
 
 **Date : 28-May-2022**
 ## Automation of Fee Creation of the Students

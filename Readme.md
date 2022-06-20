@@ -290,7 +290,7 @@ reveal. js is an open source HTML presentation framework. It's a tool that enabl
 - Converting .md file into .pdf file using Pandoc.
 
 **Date : 24-Feb-2022** 
-##  Introduction to Docker, Virtual Machine and ERPNext
+##  Introduction to Docker, Virtual Machine and ERPGuru
 
 ## Docker
 
@@ -304,16 +304,16 @@ A Virtual Machine (VM) is a compute resource that uses software instead of a p
 - It can run only a limited number of VMs on a system.
 - It can run multiple containers on a system.
 - It can start multiple containers at a time on the Docker engine.
-## ErpNext
+## ERPGuru
 
-ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
+ERPGuru is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPGuru, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
 
 **Date : 25-Feb-2022** 
-##  Installing ERPNext Powered by Frappe on our bench: 
+##  Installing ERPGuru Powered by Frappe on our bench: 
 
 - Pre requisite
  - Frappe FrameWork 
-- For the perfect installation use this referance [Click here](https://github.com/D-codE-Hub/ERPNext-installation-Guide/blob/main/README.md). 
+- For the perfect installation use this referance [Click here](https://github.com/D-codE-Hub/ERPGuru-installation-Guide/blob/main/README.md). 
 
 **Date : 26-Feb-2022** 
 ##  Introduction to Selenium, Budibase, Coding standard for program
@@ -363,11 +363,11 @@ A template contains variables and/or expressions, which get replaced with values
 ```
 
 **Date : 1-March-2022**
-## Education Domain in Erpnext
+## Education Domain in ERPGuru
 
-ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using Frappe, a Python based server-side framework. ERPNext is a generic ERP software used by manufacturers, distributors and services companies.
+ERPGuru is a free and open-source integrated Enterprise Resource Planning software developed by Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using Frappe, a Python based server-side framework. ERPGuru is a generic ERP software used by manufacturers, distributors and services companies.
 
-The ERPNext Education Module helps to organizing your entire set-up. You can have your entire Student Database, Fee Structure, Staffing Information, Courses, Curriculum Which we used for the Project Nanakana Sahib Public School and Guru Nanak Dev Engineering College Ludhiana.
+The ERPGuru Education Module helps to organizing your entire set-up. You can have your entire Student Database, Fee Structure, Staffing Information, Courses, Curriculum Which we used for the Project Nanakana Sahib Public School and Guru Nanak Dev Engineering College Ludhiana.
 
 In this Domain We have 
 - Basic Setup
@@ -383,7 +383,7 @@ In this Domain We have
 
 
 **Date : 2-March-2022**
-##  Setting Up ErpNext for School
+##  Setting Up ERPGuru for School
 
 First we setup the parent Company with all the details and under that parent company we setup our school which further related to courses, program , room, student category etc.
 then our team divided the work for diferent modules.
@@ -453,7 +453,7 @@ If the due date exceeds then the fine after due date will be automatically added
 In the chat app any visitor for the site can ask for any reviews or querries for their doubts and will be answered in the specific time alloted by us by our facility member. 
 
 **Date : 7-March-2022**
-## Learning about how to import data in erpnext from csv file
+## Learning about how to import data in ERPGuru from csv file
 
 We can generate a csv template regarding ot a particular doctype and trhe we can add a particular data to ethe data type and then we can add the data in the abundace so it can save time.
 
@@ -484,11 +484,11 @@ NoticeBoard for an institute regarding to the important information provided by 
 ##  Created Different Fee Structures on the Server Site 
 
 Implemented Different fee Structures based on the Student Category and the program i.e from lkg to 10th.
-So while creating new fees, fees should be added automatically by selecting Fee Structure. We are trying to add an admission fee in Student form along with this we are exploring where all the records are saved so that we keep track how many fees are paid or pending. We track this record in 'Report Student fee collection' doctype. We are also trying to add a penalty on overdue fees but we find this feature is not currently available in erpnext.
+So while creating new fees, fees should be added automatically by selecting Fee Structure. We are trying to add an admission fee in Student form along with this we are exploring where all the records are saved so that we keep track how many fees are paid or pending. We track this record in 'Report Student fee collection' doctype. We are also trying to add a penalty on overdue fees but we find this feature is not currently available in ERPGuru.
 
 **Date : 14-March-2022**
 ## Learning about Workflow
-- Today I'm learning Workflow in ErpNext.
+- Today I'm learning Workflow in ERPGuru.
 - Understand how to pass control to different manager.
 - Trying to implement Purchase order list and trying to approve it from purchase manager and material manager.
 
@@ -541,17 +541,17 @@ Provide the clean view of the frappe framework about the file structuring with m
 
 
 **Date : 22-March-2022**
-## Installing new Erpnext on server
-- First we install the new instance of  frappe framework on the Server then install erpnext with education domain.
+## Installing new ERPGuru on server
+- First we install the new instance of  frappe framework on the Server then install ERPGuru with education domain.
 - After this we are collecting students areound 5000 and teachers (114) data from Nankana Sahib Public School.
-- Arranging data according to doctype in erpnext.
+- Arranging data according to doctype in ERPGuru.
 - Setting up the school.  
 
 **Date : 23-March-2022**
 ##  Arrange naming series company wise
 While new applicant is registered in system by default system generate naming series. We are trying to change it company wise For eg. if we are member of company A, then naming series include A-2022-00001.</p>
-For this we follow official erpnext tutorial [More Detail](https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/articles/company-wise-naming-series#:~:text=The%20need%20is%20to%20create,be%20SINV%2DB%2D0001.)
-Using this we get error the we take reference from other discuss.erpnext where we use (.abbr.-.YYYY.-) in option of Naming Series
+For this we follow official ERPGuru tutorial [More Detail](https://docs.ERPGuru.com/docs/v13/user/manual/en/customize-ERPGuru/articles/company-wise-naming-series#:~:text=The%20need%20is%20to%20create,be%20SINV%2DB%2D0001.)
+Using this we get error the we take reference from other discuss.ERPGuru where we use (.abbr.-.YYYY.-) in option of Naming Series
 
 **Date : 24-March-2022**
 ## Arranging Student data
@@ -631,13 +631,13 @@ Today Sir explained us all the requirements of the souvenir project and what is 
 ## Acceptence of the Requirements of Souvenir
 Today the requirements and specification of the souvenir project got approval form the sir :) 
 After this i immediately started working on souvenir project. Fisrt i created a doctype named souvenir with some fields like name, branch, urn, crn, dob, fathers name, mothers name etc, and there are two sections avialble for the friends Info of friend1, And Info of Friend2 in these field students will fill the details of their friends and comments for them. 
-After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local erpnext.
+After creating the doctype and giving it web view I created a web-form based on the souvenir doctype and the name of the webform is souvenir-form it has same field as souvenir doctype. I Did all this on my local ERPGuru.
 
 
 **Date : 11-April-2022**
 
 ## Souvenir on server
-After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And  was also working on the education domain of erpnext for nankana sahib public school.
+After successfully creating the souvenir doctype and souvneir web-form and after checking if it is working or not. Today created the souvenir doctype and souvenir web form on gne11.gnde.ac.in. And  was also working on the education domain of ERPGuru for nankana sahib public school.
  
 
 **Date : 12-April-2022**
@@ -645,12 +645,12 @@ After successfully creating the souvenir doctype and souvneir web-form and after
 ## Souvenir on Server
 Today I was working on the souvenir form. On our website i wasn't able
 to access the web form due to server exception.Then i created the
-souvenir doctype and souvenir webform on my local erpnext system. Sir
+souvenir doctype and souvenir webform on my local ERPGuru system. Sir
 told me to refresh the gne11.gndec.ac.in and pray sincerely :) . After
 this i was able to access the web form. Now the problem is that the
 user is able to attach image in the image field with login. But user
 is not able to attach image in the image field  (but user is able to
-select image of their choice). I also tried it on my local erpnext
+select image of their choice). I also tried it on my local ERPGuru
 system, on that i am getting same problem.
 
 
@@ -674,12 +674,12 @@ After student section we showed them the whole working of instructor how instruc
 **Date : 16-April-2022**
 
 ## Fetching data from another doctype in doctype
-Today we  were trying to fetch the fields in the souvenir doctype from other doctypes .we were able to fetch branch name (username) etc. After that we were trying to migrate the souvenir doctype. but  not able to do it on my local erpnext as we are getting an error related to supervisor. we were trying to create an app named souvenir so that one can easily fork it from my repository but we are getting error so vishal created an app named souvenir on his local erpnext and added it to his github and wetried to fork it from his repository again we were getting error related to souvenir.
+Today we  were trying to fetch the fields in the souvenir doctype from other doctypes .we were able to fetch branch name (username) etc. After that we were trying to migrate the souvenir doctype. but  not able to do it on my local ERPGuru as we are getting an error related to supervisor. we were trying to create an app named souvenir so that one can easily fork it from my repository but we are getting error so vishal created an app named souvenir on his local ERPGuru and added it to his github and wetried to fork it from his repository again we were getting error related to souvenir.
 
 
 **Date : 18-April-2022**
 
-## Error On local erpnext 
+## Error On local ERPGuru 
 Today we were continuously getting error ;) related to supervisor vishal and I was trying to resolve this issue but after applying solutions for this error we were getting new errors so we uninstalled the local bench then reinstalled it on our local system. After this I created a
 new app named Souvenir_Form then installed it on site. Then I have created a new doctype named Souvenir and a web form named souvenir on my local system.
 
@@ -688,7 +688,7 @@ new app named Souvenir_Form then installed it on site. Then I have created a new
 **Date : 19-April-2022**
 
 ## Presentation Of all the topics
-Today Me and Vishal gave presentation to all my mates in which about the building Structure of Frappe and Erpnext and the Functionality of all the files and folder and their meaning and also procide some demo about the code and the generation of files,,
+Today Me and Vishal gave presentation to all my mates in which about the building Structure of Frappe and ERPGuru and the Functionality of all the files and folder and their meaning and also procide some demo about the code and the generation of files,,
 . Currently I am working on web form validations in order to procide a clean form for the user so that we got proper information and make clg's own form instead of using google forms.
 
 
@@ -730,7 +730,7 @@ frappe.web_form.validate = () => {
  **Date : 23-April-2022**
 
 ##Working to fetch data from user doctype in souvenir doctype
-Trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of erpnext. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
+Trying to fetch the data from user doctype to souvenir doctype. We were searching for the solutions for fetching the fields from another doctype. By default in the erpnect their is "fetch from" option is available in doctypes but we wanted to do it from backend so we implemeted it by using java script events that are present in official documentation of ERPGuru. We implemented it in js file of souvenir doctype. By using these events we were able to fetch the data like name,email,contact number from user doctype.
 Successfully fetched the data using pyhton events and then i Whitelisted these events and used them in the call function in the docype js file and got the data.
 ```py
 from __future__ import unicode_literals
@@ -982,7 +982,7 @@ For creating new school leaving certificate format goto print format. For Adding
 
 - First we create collapse multiple tab effect with bootstrap and html.
 - In which we use bootstrap classes with html tags.
-- Then our next task is to put in erpnext directory and run it with jinja templating.
+- Then our next task is to put in ERPGuru directory and run it with jinja templating.
 - For this we remove all html starting tags and bootstrap cdn links because frappe also uses Bootstrap-4 classes.
 - Replace Html starting tags with jinja starting template and trying to fetch data from database.
 
@@ -1029,7 +1029,7 @@ frappe.listview_settings["Student"] = {
 
     if (doc.enabled == 1) {
       frappe.call({
-        method: "erpnext.education.api.get_over_due",
+        method: "ERPGuru.education.api.get_over_due",
         callback: function (r) {
           if (r) {
             $.each(r.message, function (i, d) {

@@ -1053,11 +1053,24 @@ frappe.listview_settings["Student"] = {
 ```
 
 **Date : 28-May-2022**
-## Generation of Student's School Leaving Certificate 
+## Dashboard for ERPGURU
+
+- Now we have to create a new dashboard page according to the rquirement specified by Mentor.
+- There should be links of Student, Program, Fee, Attendance etc. After clicking, it would ask for login.
+- So we explored about this and create a new webpage. (Go to Website > Webpage then create new webpage)
+- Enter Title, Route etc. Select HTML in Content Type.
 
 
 **Date : 30-May-2022**
-## Notifications to students when Fee are Paid and overdue
+## Desk Theme
 
-**Date : 30-May-2022**
-## Notifications to students when Fee are Paid and overdue
+- Sir assigned us (Me and Jaspreet) the task to beautify the desk view with bootstrap. So we are exploring about it.
+- We found theme of desk. We install a theme from this url: https://github.com/hashirluv/r
+- After installing this theme, colour of heading, navigation bar etc got changed.
+- Then we tried some other themes also. We tried White Theme, Blue Theme etc.
+- Then we understand the code and css files to change the view of desk. We can change only background colours, text colours, hover text colour etc with some changes in the css files.
+
+**Date : 31-May-2022**
+## Exploring OAuth 2 
+
+OAuth 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. OAuth 2.0 provides consented access and restricts actions of what the client app can perform on resources on behalf of the user, without ever sharing the user's credentials. Although the web is the main platform for OAuth 2, the specification also describes how to handle this kind of delegated access to other client types (browser-based applications, server-side web applications, native/mobile apps, connected devices, etc.)
